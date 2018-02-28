@@ -1,0 +1,12 @@
+immeuble_homepage:
+    path:     /
+    defaults: { _controller: ImmeubleBundle:Default:index }
+test_page1:
+    path:     /page1
+    defaults: { _controller: ImmeubleBundle:Default:page }
+layout:
+    path:     /layout
+    defaults: { _controller: ImmeubleBundle:Default:layout }
+index:
+    path:     /index
+    defaults: { _controller: ImmeubleBundle:Default:indextemplate }
